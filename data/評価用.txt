@@ -1,0 +1,3 @@
+# tensorboardの表示
+%load_ext tensorboard
+%tensorboard --logdir runs
