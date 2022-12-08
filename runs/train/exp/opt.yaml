@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 weights: yolov5s.pt
 cfg: C:\Users\thiro\Desktop\repositry\yolov5_ForTamaki\models\yolov5s.yaml
+=======
+weights: ''
+cfg: C:\Users\thiro\Desktop\python\yolov5\models\yolov5s.yaml
+>>>>>>> 92e2a0db496c172655fb88d54a59bfd7d92f326f
 data: data/data.yaml
 hyp:
   lr0: 0.01
