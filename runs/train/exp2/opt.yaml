@@ -1,6 +1,6 @@
 weights: yolov5s.pt
-cfg: C:\Users\thiro\Desktop\repositry\yolov5_ForTamaki\models\yolov5s.yaml
-data: data/data.yaml
+cfg: models/yolov5s.yaml
+data: data.yaml
 hyp:
   lr0: 0.01
   lrf: 0.01

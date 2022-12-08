@@ -1,0 +1,8 @@
+初期detect
+python detect.py --source data/images --conf 0.5 --weights yolov5s.pt
+
+学習後を使うとき
+python detect.py --source data/images --weights TestDetect/egg+coco/best.pt --conf 0.4
+
+自作モデルで学習
+python train.py --data data.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt --batch-size 8 --epochs 300
