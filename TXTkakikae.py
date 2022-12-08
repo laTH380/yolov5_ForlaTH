@@ -1,3 +1,5 @@
+#データセットのラベルミスを一括で治したい人生だった
+
 import glob
 import re
 import os
@@ -8,9 +10,9 @@ path_list = glob.glob( dir + "/*.txt")
 #一行ずつ読み込み,書き込み
 for i in path_list:
     contents = []
-    with open("/data/train/labels\egg_32_jpg.rf.339a0a7c21df0b18f8182922f9395efd.txt") as f:
+    with open("yolov5_ForTamaki/data/train/labels/egg_45_jpg.rf.fcf108e3f89512e9bcb0798fe728b83f.txt") as f:
         for line in f:
-            print(line)
+            print(line)#????行ごとになぜか開かない！！！！
             line = "8" + line
             print(line)
             contents.append(line)
