@@ -1,0 +1,264 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: airplane
+  5: bus
+  6: train
+  7: truck
+  8: boat
+  9: traffic light
+  10: fire hydrant
+  11: stop sign
+  12: parking meter
+  13: bench
+  14: bird
+  15: cat
+  16: dog
+  17: horse
+  18: sheep
+  19: cow
+  20: elephant
+  21: bear
+  22: zebra
+  23: giraffe
+  24: backpack
+  25: umbrella
+  26: handbag
+  27: tie
+  28: suitcase
+  29: frisbee
+  30: skis
+  31: snowboard
+  32: sports ball
+  33: kite
+  34: baseball bat
+  35: baseball glove
+  36: skateboard
+  37: surfboard
+  38: tennis racket
+  39: bottle
+  40: wine glass
+  41: cup
+  42: fork
+  43: knife
+  44: spoon
+  45: bowl
+  46: banana
+  47: apple
+  48: sandwich
+  49: orange
+  50: broccoli
+  51: carrot
+  52: hot dog
+  53: pizza
+  54: donut
+  55: cake
+  56: chair
+  57: couch
+  58: potted plant
+  59: bed
+  60: dining table
+  61: toilet
+  62: tv
+  63: laptop
+  64: mouse
+  65: remote
+  66: keyboard
+  67: cell phone
+  68: microwave
+  69: oven
+  70: toaster
+  71: sink
+  72: refrigerator
+  73: book
+  74: clock
+  75: vase
+  76: scissors
+  77: teddy bear
+  78: hair drier
+  79: toothbrush
+  80: egg
+
+roboflow:
+  workspace: project
+  project: egg-e8qlh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project/egg-e8qlh/dataset/1
+#以上卵tだけ追加の時のやつ
+
+
+
+#   #coco＋演習用
+
+# train: data/train/images
+# val: data/valid/images
+# test: data/test/images
+
+# # Classes
+# names:
+#   0: person
+#   1: bicycle
+#   2: car
+#   3: motorcycle
+#   4: airplane
+#   5: bus
+#   6: train
+#   7: truck
+#   8: boat
+#   9: traffic light
+#   10: fire hydrant
+#   11: stop sign
+#   12: parking meter
+#   13: bench
+#   14: bird
+#   15: cat
+#   16: dog
+#   17: horse
+#   18: sheep
+#   19: cow
+#   20: elephant
+#   21: bear
+#   22: zebra
+#   23: giraffe
+#   24: backpack
+#   25: umbrella
+#   26: handbag
+#   27: tie
+#   28: suitcase
+#   29: frisbee
+#   30: skis
+#   31: snowboard
+#   32: sports ball
+#   33: kite
+#   34: baseball bat
+#   35: baseball glove
+#   36: skateboard
+#   37: surfboard
+#   38: tennis racket
+#   39: bottle
+#   40: wine glass
+#   41: cup
+#   42: fork
+#   43: knife
+#   44: spoon
+#   45: bowl
+#   46: banana
+#   47: apple
+#   48: sandwich
+#   49: orange
+#   50: broccoli
+#   51: carrot
+#   52: hot dog
+#   53: pizza
+#   54: donut
+#   55: cake
+#   56: chair
+#   57: couch
+#   58: potted plant
+#   59: bed
+#   60: dining table
+#   61: toilet
+#   62: tv
+#   63: laptop
+#   64: mouse
+#   65: remote
+#   66: keyboard
+#   67: cell phone
+#   68: microwave
+#   69: oven
+#   70: toaster
+#   71: sink
+#   72: refrigerator
+#   73: book
+#   74: clock
+#   75: vase
+#   76: scissors
+#   77: teddy bear
+#   78: hair drier
+#   79: toothbrush
+#   80: egg
+#   81: Watermelon
+#   82: Grapefruit White
+#   83: Granadilla
+#   84: Chestnut
+#   85: Apple
+#   86: Grapes
+#   87: Corn
+#   88: Tamarillo
+#   89: Kohlrabi
+#   90: Nectarine
+#   91: Pepper Yellow
+#   92: Nut Forest
+#   93: Pepper Green
+#   94: Fig
+#   94: Ginger Root
+#   95: Physalis
+#   97: Lemon Meyer
+#   98: Onion Red
+#   99: Passion Fruit
+#   100: Cucumber Ripe
+#   101: Cactus fruit
+#   102: Mandarine
+#   103: Mango
+#   104: Potato Sweet
+#   105: Pomegranate
+#   106: Plum
+#   107: Pineapple
+#   108: Tomato
+#   109: Cherry
+#   110: Kumquats
+#   111: Avocado
+#   112: Dates
+#   113: Maracuja
+#   114: Papaya
+#   115: Nut Pecan
+#   116: Raspberry
+#   117: Mangostan
+#   118: Eggplant
+#   119: Apple Golden
+#   120: Guava
+#   121: Beetroot
+#   122: Kaki
+#   123: Potato
+#   124: Lemon
+#   125: Physalis with Husk
+#   126: Kiwi
+#   127: Pomelo Sweetie
+#   128: Limes
+#   129: Cantaloupe
+#   130: Pitahaya Red
+#   131: Pear
+#   132: Carambula
+#   133: Pepino
+#   134: Onion White
+#   135: Clementine
+#   136: Strawberry
+#   137: Lychee
+#   138: Redcurrant
+#   139: Rambutan
+#   140: Tangelo
+#   141: Peach
+#   142: Hazelnut
+#   143: Blueberry
+#   144: Apple Granny Smith
+#   145: Banana
+#   146: Apricot
+#   147: Mulberry
+#   148: Grape Blue
+#   149: Walnut
+#   150: Melon Piel de Sapo
+#   151: Cauliflower
+#   152: Grapefruit Pink
+#   153: Salak
+#   154: Cocos
+
+
+# # Download script/URL (optional)
+# #download: https://ultralytics.com/assets/coco128.zip
