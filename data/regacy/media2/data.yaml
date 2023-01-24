@@ -1,0 +1,6 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 14
+names: ['apple','Apple Granny Smith','banana','Pepper Green','Pepper Red','Peach','Cucumber Ripe','Eggplant','Mango Red','Grape','Onion Red','Potato White','Pear','Mangostan','Carambula']
