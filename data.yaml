@@ -8,6 +8,6 @@ names: ['Apple Granny Smith', 'Cucumber Ripe', 'Eggplant', 'Grape', 'Mango Red',
 roboflow:
   workspace: hiroto-tamaki-1en2a
   project: media2_dakyou2
-  version: 1
+  version: 2
   license: CC BY 4.0
-  url: https://universe.roboflow.com/hiroto-tamaki-1en2a/media2_dakyou2/dataset/1
+  url: https://universe.roboflow.com/hiroto-tamaki-1en2a/media2_dakyou2/dataset/2
